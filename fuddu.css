@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    box-shadow: 0px 1px 5px 0px rgb(37, 35, 35);
+
+}
+nav input{
+    width: 600px;
+    padding: 11px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+    
+
+
+.logo h1{
+    font-size: 40px;
+    color: rgb(250, 99, 5);
+    margin-top: -20px;
+}
+
+.icon{
+    margin-left: -11px;
+}
+
+.icon i{
+    margin-inline: 8px;
+    color: black;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 9px;
+}
+
+.icon i:hover{
+    color: rgb(255, 129, 2);
+    cursor: pointer;
+}
+
+
+.head h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+    margin-right: 22px;
+    
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    margin-left: -10%;
+    
+   
+}
+
+ .main img{
+    width: 20%;
+      
+    
+    
+}
+
+
+.main .text{
+    width: 600px;
+    margin-top: 60px;
+   
+    
+    
+}
+.text span{
+    color: rgb(214, 92, 21);
+}
+
+.text h1{
+    font-size: 65px;
+    color: white;
+    padding-left: 10%;
+    margin-top: 40px;
+    
+   
+    
+}
+.head span{
+    color: orange;
+}
+
+.text p{
+    color: white;
+    margin-top: 20px;
+    padding-left: 10%;
+}
+
+.text button{
+    margin-top: 24px;
+    margin-left: 10%;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 85, 0);
+    color: white;
+    border-radius: 19px;
+    font-size: 22px;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+text button:hover{
+    background-color: rgb(12, 12, 11);
+    cursor: pointer;
+}
+
+
+
+
+.crd{
+    display: flex;
+    justify-content: center;
+    margin-left: 115px;
+    color: black;
+    margin-top: 1px;
+    
+    
+    
+   
+}
+
+
+.crd .card{
+    width: 280px;
+    background-color: rgb(210, 183, 167);
+    border-radius: 4px;
+    padding: 11px;
+    color: black;
+    margin-inline: 11px;
+    margin-top: 40px;
+   
+    
+}
+
+.card img{
+    width: 80%;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+.card h2{
+    margin-top: 12px;
+}
+
+.card p{
+    margin-top: 12px;
+}
+.card button{
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 132, 0);
+    color: black;
+    border-radius: 19px;
+    font-size: 22px;
+    width: 140px;
+    height: 38px;
+    cursor: pointer;
+    
+
+}
+.blog{
+     width: 280px;
+     height: 400px;
+    background-color: rgb(203, 86, 13);
+    border-radius: 4px;
+    padding: 11px;
+    color: black;
+    margin-inline: 11px;
+    margin-top: 100px;
+    
+
+}
+
+.blog h2{
+    margin-top: 12px;
+}
+.blog p{
+    margin-top: 12px;
+}
+.blog a{
+    position: relative;
+    top: 32px;
+    width: 16%;
+    padding: 11px;
+    background-color: rgb(224, 116, 54);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 4px;
+    
+}
+.blog button{
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    border-radius: 2px;
+    font-size: 22px;
+    width: 140px;
+    height: 38px;
+    
+
+}
+
+
+
+.blog img{
+    width: 80%;
+    margin-right: 20px;
+    text-align: center;
+
+}
+
+    
+
+
+
+.review{
+    display: flex;
+  padding: 22px;
+    justify-content: center;
+    width: 900px;
+    height: 300px;
+    position: relative;
+   
+    overflow: hidden;
+    margin: auto;
+
+
+}
+.review .customer{
+    
+    position: absolute;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    background-color: #d6bd7d;
+    color: black;
+    transition: 0.6s ease;
+   
+
+}
+.customer img{
+    width: 32%;
+    border-radius: 50%;
+    
+}
+
+
+.customer i{
+    color: rgb(255, 102, 0);
+    font-size: 22px;
+    margin-top: 6px;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    width: 140px;
+    height: 38px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    margin-inline:11px ;
+    background-color: orange;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(217, 105, 25);
+    padding: 55px;
+    margin-top: 77px;
+    color: black;
+    
+}
+.footer .txt{
+color: black;
+margin-inline: 40px;
+}
+.txt p{
+    margin-top: 12px;
+
+}
+
+
+
+.nav{
+    display: none;
+    position: absolute;
+    margin-left: 85%;
+    width: 160px;
+    padding: 22px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 6px;
+    cursor: pointer;
+
+
+}
+.nav p{
+    width:110px ;
+    color:black;
+    margin-left: 20%;
+     padding: 11px;
+     border-radius: 4px;
+}
+.nav p:hover{
+    background-color: rgb(237, 239, 237);
+    color:rgb(192, 91, 14);
+    cursor: pointer;
+    
+   
+}
+
